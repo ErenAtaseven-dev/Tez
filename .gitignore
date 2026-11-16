@@ -1,0 +1,24 @@
+# Virtual Environments & Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Workspace & Raw Datasets (Excluded for Data Hygiene & Size Limits)
+veri_filtreleme/
+TEZ_TESLIM_CIKTILARI/
+data/
+*.csv
+/*.docx
+*.log
+checkpoint*.json
+
+# Root Scratch Scripts & Draft Workbooks
+TEZ_PROJE_CONTEXT.md
+Tez_Analiz_*.xlsx
+check_baskin.py
+check_xlsx.py
+print_duyarsiz.py
+revert.py
+tez_analiz_motoru.py
